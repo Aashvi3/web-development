@@ -1,22 +1,73 @@
 <html>
     <head>
-        <title><center>Lists</center></title>
+        <title>My Superhero Card</title>
+        <style>
+            body {
+                background-color:darkblue;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .hero-name {
+                font-size: 60px;
+                font-weight: bold;
+                color:yellow;
+                text-shadow: 3px 3px orange;
+            }
+             
+            .tagline {
+                font-style: italic;
+                color: lightblue;
+                text-transfrom: capitalize;
+
+            }
+
+            .label {
+                text-transform: uppercase;
+                text-decoration: underline;
+                color: coral;
+            }
+
+            .power {
+                font-weight: bold;
+                color: lightgreen;
+            }
+
+            .weakness {
+                text-decoration: line-through;
+                color: gray;
+
+            }
+
+            .badge {
+                font-size: 28px;
+                font-weight: bold;
+                color: gold;
+                transform: rotate(15deg);
+
+            }
+
+            .made-by{ 
+                color: coral;
+                font-style: italic
+            }
+
+        </style>
     </head>
     <body>
-        <h1><center><u>Lists</u></center></h1>
-        <hr>
-        <h2>Ordered List</h2>
-        <ol>
-            <li>Apple</li>
-            <li>Mango</li>
-            <li>Orange</li>
-        </ol>
+        <h1 class="hero-name">Thunder Kid</h1>
+        <p class="tagline">the most powerful hero in the entire school</p>
 
-        <h2>Unordered list</h2>
-        <ul>
-            <li>Cat</li>
-            <li>Dog</li>
-            <li>Tiger</li>
-        </ul>
+        <h2 class="label">super powers</h2>
+        <p class="power">Can run faster than a cheetah</p>
+        <p class="power">Can lift a school bus</p>
+        
+        <h2 class="label">weaknesses</h2>
+        <p class="weakness">Maths homework</p>
+        <p class="weakness">Broccoli</p>
+
+        <p class="badge"> Top hero</p>
+
+        <p class="made-by">Created by Aashvi</p>
     </body>
 </html>
